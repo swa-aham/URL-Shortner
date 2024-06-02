@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
+}
+
+.main {
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.main h1 {
+    font-size: 40px;
+}
+
+.url-input {
+    margin: 10px;
+}
+
+.url-input input, button {
+    font-size: 17px;
+    padding: 5px;
+    border: none;
+}
+
+.url-input input {
+    width: 250px;
+    background-color: transparent;
+    border-bottom: 1px solid;
+    outline: none;
+}
+
+.url-input input:focus {
+    border-color: #3aa5e7;
+}
+
+.url-input button {
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #3aa5e7;
+    width: 100px;
+}
+
+#container {
+    max-width: 400px;
+}
+
+#shortenBtn {
+    margin-top: 10px;
+}
+
+#result {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+#result button {
+    width: 130px;
+    background-color: #3aa5e7;
+    cursor: pointer;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #065485;
+    color: #e2ebf0;
+}

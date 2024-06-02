@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>URL Shortener</title>
+    
+    <!-- Style CSS -->
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+    <div class="main">
+
+        <div id="container">
+            <h1>URL Shortener</h1>
+            <p>Your go-to solution for instantly shortening long, cumbersome URLs into sleek and shareable links!</p>
+
+            <div class="url-input">
+                <input type="url" id="urlInput" placeholder="Enter URL">
+                <button onclick="shortenURL()" id="shortenBtn">Shorten</button>
+            </div>
+
+            <div id="result" style="display: none;">
+                <p>Shortened URL:</p>
+                <a href="" target="_blank" id="shortenedURL"></a>
+                <button onclick="copyToClipboard()">Copy</button>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Script JS -->
+    <script src="./script.js"></script>
+</body>
+</html>
